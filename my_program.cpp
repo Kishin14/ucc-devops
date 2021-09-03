@@ -7,12 +7,12 @@ using namespace std;
 int main() {
 	int  iValor = 0;
 	int iContador = 0;
-	cin >> "Ingrese un valor para calcular una suma";
-	for (i = 1; i<= iValor; i++) {
+	cout << "Ingrese un valor para calcular una suma";
+	cin >> iValor;
+	cout << "Ha ingresado: " << iValor <<endl;
+	for (int i = 1; i<= iValor; i++) {
 		iContador += i;
 	}
-	cout << "El resultado es: " << iContador ;
-	getch();
+	cout << "El resultado es: " << iContador << endl;
 	return 0;
 }
-
