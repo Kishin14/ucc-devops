@@ -1,18 +1,19 @@
-<stdio.h>
-<math.h>
-<getch.h>
+#include <stdio.h>
+#include <math.h>
+#include <getch.h>
+#include <iostream>
 
-#workspace 'curso devops'
+using namespace std;
 
-static int main[object ...] {
+int main() {
 	int  iValor = 0;
 	int iContador = 0;
-	cin << 'Ingrese un valor para calcular una suma';
+	cin >> "Ingrese un valor para calcular una suma";
 	for (i = 1; i<= iValor; i++) {
 		iContador += i;
 	}
-	cout >> 'El resultado es: ' + %int,iContador ;
+	cout << "El resultado es: " << iContador ;
 	getch();
-	exit 1;
+	return 0;
 }
 
