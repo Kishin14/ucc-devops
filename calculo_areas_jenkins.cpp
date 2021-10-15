@@ -3,7 +3,7 @@
 #include <iostream>
 
 using namespace std;
-
+//Area del circulo
 int areaCirculo(double radioP) {
 	double PI = 3.14159265358979323846;
 	double area = 0.0;
